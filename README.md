@@ -90,10 +90,11 @@ A hands-on SOC environment built to practice **security monitoring, alert detect
 ## 📚 Currently Learning
 
 - KQL for security monitoring and threat hunting
-- Windows Event Logs and Sysmon
-- SIEM alert investigation and incident documentation
-- Network traffic analysis
-- Incident response and Blue Team workflows
+- Advanced SIEM detection and investigation
+- Vulnerability assessment and security testing
+- Web application security and OWASP
+- Malware analysis and threat intelligence
+- Microsoft Sentinel and cloud security concepts
 
 ## 🔎 My Approach
 
