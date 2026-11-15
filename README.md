@@ -10,12 +10,14 @@ I'm currently strengthening my SOC Analyst L1 skills through hands-on labs, secu
 
 ## 🎯 Career Focus
 
-- Security Operations Center (SOC) — L1
-- Security Alert Triage & Incident Investigation
+- Cybersecurity Operations & Security Monitoring
 - Threat Detection & Log Analysis
-- Network Traffic Analysis
-- Phishing Investigation & IOC Analysis
+- Vulnerability Assessment & Security Testing
+- Security Alert Triage & Incident Investigation
+- Network Security & Traffic Analysis
+- Threat Intelligence & IOC Analysis
 - Incident Response & Threat Hunting
+- Web Application Security & OWASP
 
 ## 🧰 Technical Skills
 
