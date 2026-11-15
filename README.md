@@ -2,9 +2,9 @@
 
 ### 🛡️ CEH v13 Certified | Cybersecurity | Threat Detection • Vulnerability Assessment • Incident Response
 
-I'm a cybersecurity enthusiast focused on **Security Operations (SOC), Blue Teaming, Threat Detection, and Incident Response**. I enjoy analyzing security logs, investigating suspicious activity, identifying indicators of compromise (IOCs), and building practical cybersecurity projects.
+I'm a cybersecurity professional-in-training focused on **threat detection, vulnerability assessment, security monitoring, and incident response**. I enjoy analyzing security logs, investigating suspicious activity, identifying vulnerabilities and indicators of compromise (IOCs), and building practical cybersecurity projects.
 
-I'm currently strengthening my SOC Analyst L1 skills through hands-on labs, security investigations, and project development.
+I strengthen my skills through hands-on labs, security investigations, vulnerability testing, and practical project development across defensive and offensive security domains.
 
 ---
 
