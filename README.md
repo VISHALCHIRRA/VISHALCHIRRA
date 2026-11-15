@@ -1,6 +1,6 @@
 # Hi, I'm Vishal Chirra 👋
 
-### 🛡️ CEH v13 Certified | Aspiring SOC Analyst | Blue Team & Threat Detection
+### 🛡️ CEH v13 Certified | Cybersecurity | Blue Team • Threat Detection • Vulnerability Assessment • Incident Response
 
 I'm a cybersecurity enthusiast focused on **Security Operations (SOC), Blue Teaming, Threat Detection, and Incident Response**. I enjoy analyzing security logs, investigating suspicious activity, identifying indicators of compromise (IOCs), and building practical cybersecurity projects.
 
