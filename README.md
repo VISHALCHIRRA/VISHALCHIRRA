@@ -98,9 +98,9 @@ A hands-on SOC environment built to practice **security monitoring, alert detect
 
 ## 🔎 My Approach
 
-I believe effective cybersecurity investigation requires understanding **why an alert occurred, what evidence supports it, how to assess its risk, and what response actions are appropriate**.
+I approach cybersecurity through **hands-on investigation, security testing, and practical problem-solving**.
 
-I focus on hands-on learning, documenting technical work, and building projects that connect cybersecurity concepts with practical implementation.
+I focus on understanding how security issues occur, analyzing evidence and vulnerabilities, assessing risk, and documenting findings clearly. I strengthen my skills by building practical projects, conducting security investigations, working with security tools, and continuously learning across defensive and offensive security domains.
 
 ## 🤝 Let's Connect
 
