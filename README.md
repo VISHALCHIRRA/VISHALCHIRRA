@@ -32,10 +32,12 @@ I'm currently strengthening my SOC Analyst L1 skills through hands-on labs, secu
 
 ## 📜 Certifications & Training
 
-- **Certified Ethical Hacker (CEH v13)** — EC-Council
-- **SOC Analyst Learning Path** — LetsDefend
-- **Pre Security Learning Path** — TryHackMe
-- Hands-on cybersecurity labs and security investigations
+- 🛡️ **Certified Ethical Hacker (CEH v13)** — EC-Council
+- 🔵 **SOC Analyst Learning Path** — LetsDefend
+- 🔴 **Pre Security Learning Path** — TryHackMe
+- 🔎 **15+ SOC alert investigations** — LetsDefend
+- 🧪 **50+ hands-on cybersecurity labs** — TryHackMe
+- 🛠️ **Hands-on SOC projects and security investigations** — Wazuh, pfSense, Sysmon
 
 ## 🚀 Featured Projects
 
