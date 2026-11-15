@@ -36,7 +36,7 @@ I'm currently strengthening my SOC Analyst L1 skills through hands-on labs, secu
 - **Pre Security Learning Path** — TryHackMe
 - Hands-on cybersecurity labs and security investigations
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
 
 ### 🐝 HoneyShield — Intelligent Honeypot System for Cyberattack Analysis
 
@@ -45,51 +45,40 @@ A honeypot-based cybersecurity monitoring and analysis system that captures cont
 **Key Features**
 - Deployed Cowrie SSH honeypot in a VirtualBox laboratory using Kali Linux and Ubuntu
 - Built a Python-based log parsing and rule-based detection pipeline
-- Identifies successful and failed SSH login activity, suspicious commands, and possible brute-force behavior
-- Classifies observed activity into security categories
+- Detects successful/failed SSH logins, suspicious commands, and possible brute-force activity
 - Maps relevant behaviors to MITRE ATT&CK techniques
-- Integrates AbuseIPDB for public IP threat-intelligence enrichment
+- Integrates AbuseIPDB for threat-intelligence enrichment
 - Stores attack events and alerts in SQLite
-- Provides Flask REST APIs and a SOC-style dashboard for alert visualization
+- Provides Flask REST APIs and a SOC-style dashboard
 
 **Tech Stack:** Python, Kali Linux, Ubuntu, Cowrie, Flask, SQLite, AbuseIPDB, MITRE ATT&CK, VirtualBox
 
-🔗 **[Explore HoneyShield on GitHub](https://github.com/VISHALCHIRRA/HoneyShield)**
+🔗 **[Explore HoneyShield on GitHub →](https://github.com/VISHALCHIRRA/HoneyShield)**
 
-## 🛡️ Home SOC Lab — Wazuh SIEM & Blue Team Monitoring
+---
 
-A hands-on SOC environment built to practice **security monitoring, alert detection, log analysis, and incident investigation** using a virtualized enterprise-style network.
+### 🛡️ Home SOC Lab — Wazuh SIEM & Blue Team Monitoring
 
-### 🔹 Key Features
+A hands-on SOC environment built to practice **security monitoring, alert detection, log analysis, and incident investigation** in an isolated virtual enterprise network.
 
-- Built a virtual SOC environment using **pfSense, Wazuh, Windows Server 2022, Windows 10, Kali Linux, Sysmon, CrowdSec, and VirtualBox**
+**Key Features**
+- Built a virtual SOC environment using **Wazuh, pfSense, Windows Server 2022, Windows 10, Kali Linux, Sysmon, CrowdSec, and VirtualBox**
 - Configured **Windows Server 2022 Active Directory** with the `corp.soclab.test` domain
 - Deployed **Wazuh SIEM** for centralized security monitoring and alert investigation
 - Integrated **pfSense firewall logs with Wazuh over UDP/514**
-- Developed a **custom pfSense decoder** and Wazuh detection rule **100100** for blocked network traffic
+- Developed a **custom pfSense decoder** and Wazuh detection rule `100100` for blocked network traffic
 - Generated and investigated **4 simulated ICMP firewall-block events**, producing 4 Wazuh Level 5 alerts
 - Investigated a **FodHelper UAC-bypass detection** using Wazuh and Sysmon telemetry
-- Assessed the FodHelper activity as **likely benign / false positive** based on the available endpoint evidence
-- Documented SOC investigation methodology, detection flow, evidence, findings, and verdicts
+- Assessed the FodHelper activity as **likely benign / false positive** based on available endpoint evidence
+- Documented SOC investigation methodology, evidence, findings, and verdicts
 
-### 🔎 SOC Investigation Cases
+**SOC Cases**
+- **Case 01:** pfSense Blocked ICMP Traffic — Wazuh Rule `100100`
+- **Case 02:** FodHelper UAC Bypass Detection — Wazuh Rule `92055`, MITRE `T1548.002`
 
-**Case 01 — pfSense Blocked ICMP Traffic**
-- Source: Kali Linux
-- Destination: pfSense DMZ
-- Detection: Wazuh Rule `100100`
-- Severity: Level 5
-- Result: 4 firewall-block alerts successfully detected and investigated
-- Verdict: Expected / Controlled Security Test
+**Tech Stack:** Wazuh, pfSense, Sysmon, Windows Server, Active Directory, Windows 10, Kali Linux, CrowdSec, VirtualBox
 
-**Case 02 — FodHelper UAC Bypass Detection**
-- Detection: Wazuh Rule `92055`
-- MITRE ATT&CK: `T1548.002`
-- Evidence: Wazuh + Sysmon process telemetry
-- Result: Investigated process tree and endpoint context
-- Verdict: Likely Benign / False Positive
-
-🔗 **[Explore the Complete Home SOC Lab →](https://github.com/VISHALCHIRRA/Home-SOC-Lab)**
+🔗 **[Explore Home SOC Lab on GitHub →](https://github.com/VISHALCHIRRA/Home-SOC-Lab)**
 
 **Tech Stack:** Wazuh, pfSense, Sysmon, Windows Server, Active Directory, Windows 10, Kali Linux, CrowdSec, VirtualBox
 
