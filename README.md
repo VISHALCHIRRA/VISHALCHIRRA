@@ -80,7 +80,7 @@ A hands-on SOC environment built to practice **security monitoring, alert detect
 
 🔗 **[Explore Home SOC Lab on GitHub →](https://github.com/VISHALCHIRRA/Home-SOC-Lab)**
 
-**Tech Stack:** Wazuh, pfSense, Sysmon, Windows Server, Active Directory, Windows 10, Kali Linux, CrowdSec, VirtualBox
+---
 
 ## 📚 Currently Learning
 
