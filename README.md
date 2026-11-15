@@ -56,6 +56,43 @@ A honeypot-based cybersecurity monitoring and analysis system that captures cont
 
 🔗 **[Explore HoneyShield on GitHub](https://github.com/VISHALCHIRRA/HoneyShield)**
 
+## 🛡️ Home SOC Lab — Wazuh SIEM & Blue Team Monitoring
+
+A hands-on SOC environment built to practice **security monitoring, alert detection, log analysis, and incident investigation** using a virtualized enterprise-style network.
+
+### 🔹 Key Features
+
+- Built a virtual SOC environment using **pfSense, Wazuh, Windows Server 2022, Windows 10, Kali Linux, Sysmon, CrowdSec, and VirtualBox**
+- Configured **Windows Server 2022 Active Directory** with the `corp.soclab.test` domain
+- Deployed **Wazuh SIEM** for centralized security monitoring and alert investigation
+- Integrated **pfSense firewall logs with Wazuh over UDP/514**
+- Developed a **custom pfSense decoder** and Wazuh detection rule **100100** for blocked network traffic
+- Generated and investigated **4 simulated ICMP firewall-block events**, producing 4 Wazuh Level 5 alerts
+- Investigated a **FodHelper UAC-bypass detection** using Wazuh and Sysmon telemetry
+- Assessed the FodHelper activity as **likely benign / false positive** based on the available endpoint evidence
+- Documented SOC investigation methodology, detection flow, evidence, findings, and verdicts
+
+### 🔎 SOC Investigation Cases
+
+**Case 01 — pfSense Blocked ICMP Traffic**
+- Source: Kali Linux
+- Destination: pfSense DMZ
+- Detection: Wazuh Rule `100100`
+- Severity: Level 5
+- Result: 4 firewall-block alerts successfully detected and investigated
+- Verdict: Expected / Controlled Security Test
+
+**Case 02 — FodHelper UAC Bypass Detection**
+- Detection: Wazuh Rule `92055`
+- MITRE ATT&CK: `T1548.002`
+- Evidence: Wazuh + Sysmon process telemetry
+- Result: Investigated process tree and endpoint context
+- Verdict: Likely Benign / False Positive
+
+🔗 **[Explore the Complete Home SOC Lab →](https://github.com/VISHALCHIRRA/Home-SOC-Lab)**
+
+**Tech Stack:** Wazuh, pfSense, Sysmon, Windows Server, Active Directory, Windows 10, Kali Linux, CrowdSec, VirtualBox
+
 ## 📚 Currently Learning
 
 - KQL for security monitoring and threat hunting
