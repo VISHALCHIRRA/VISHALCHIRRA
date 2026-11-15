@@ -19,15 +19,16 @@ I'm currently strengthening my SOC Analyst L1 skills through hands-on labs, secu
 
 ## 🧰 Technical Skills
 
-- **SIEM:** Splunk fundamentals, security log analysis
-- **Query Language:** KQL fundamentals
-- **Network Analysis:** Wireshark, packet analysis
-- **Endpoint Security:** EDR concepts, alert triage, containment
+- **SIEM & Security Monitoring:** Wazuh, Splunk fundamentals, security log analysis, alert triage
+- **Detection & Investigation:** Threat detection, incident investigation, false-positive analysis, SOC workflows
+- **Network Security:** pfSense, Wireshark, TCP/IP, DNS, HTTP/HTTPS, firewall log analysis
+- **Endpoint Security:** Windows Event Logs, Sysmon, EDR concepts, process analysis
 - **Threat Intelligence:** IOC analysis, AbuseIPDB, MITRE ATT&CK
-- **Security Concepts:** SSH security, brute-force detection, incident response
-- **Operating Systems:** Windows, Linux, Kali Linux, Ubuntu
-- **Programming & Tools:** Python, Git, GitHub, VirtualBox
-- **Backend & Database:** Flask, SQLite, REST APIs
+- **Query & Analysis:** KQL fundamentals, log investigation
+- **Operating Systems:** Windows, Windows Server, Linux, Kali Linux, Ubuntu
+- **Security Tools:** Burp Suite, VirtualBox, CrowdSec
+- **Programming & Databases:** Python, Java, SQL, Flask, SQLite, REST APIs
+- **Version Control:** Git, GitHub
 
 ## 📜 Certifications & Training
 
